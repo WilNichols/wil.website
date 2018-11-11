@@ -2,7 +2,7 @@ var gulp          = require('gulp');
 var responsive    = require('gulp-responsive');
 
 var imgPath = {
-  photoSrc: 'photo-source/{photos,gallery}/**/*',
+  photoSrc: 'assets/photo-source/{photos,gallery}/**/*',
   photoDest: '../wilnichols.com/_site/assets/img/'
 }
 
