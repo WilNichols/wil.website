@@ -4,8 +4,8 @@ var changed       = require('gulp-changed');
 
 var imgPath = {
   photoSrc: 'photo-source/{gallery,gallery-previews,photos}/**/*',
-  photoDest: '../wilnichols.com/_source/assets/img/',
-  compareDest: '../wilnichols.com/_source/assets/img/{gallery,gallery-previews,photos}/**/*'
+  photoDest: '../wilnichols.com-13/_source/assets/img/',
+  compareDest: '../wilnichols.com-13/_source/assets/img/{gallery,gallery-previews,photos}/**/*'
 }
 
 // for local tests
