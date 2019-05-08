@@ -1,6 +1,7 @@
-var gulp          = require('gulp');
-var responsive    = require('gulp-responsive');
-var changed       = require('gulp-changed');
+var gulp         = require('gulp');
+var responsive   = require('gulp-responsive');
+var changed      = require('gulp-changed');
+var ext_replace  = require('gulp-ext-replace');
 
 var imgPath = {
   photoSrc: 'photo-source/{gallery,gallery-previews,photos}/**/*',
@@ -20,6 +21,7 @@ gulp.task('photo', function() {
         }
       ]
     }))
+    .pipe(ext_replace('.jpg'))
     .pipe(gulp.dest(imgPath.photoDest));
 });
 
