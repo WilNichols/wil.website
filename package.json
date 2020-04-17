@@ -3,7 +3,7 @@
     "gulp": "^4.0.2",
     "gulp-changed": "^3.2.0",
     "gulp-imageoptim": "^1.0.9",
-    "gulp-responsive": "^2.13.0",
+    "gulp-responsive": "^2.14.0",
     "save-dev": "^2.0.0"
   },
   "devDependencies": {
